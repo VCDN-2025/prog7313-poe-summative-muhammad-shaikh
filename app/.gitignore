@@ -1,0 +1,19 @@
+# ========== ANDROID STUDIO SPECIFICS ==========
+.idea/
+*.iml
+.gradle/
+local.properties
+
+# ========== BUILD FILES ==========
+/build/
+/app/build/
+*.apk
+
+# ========== OS FILES ==========
+.DS_Store
+Thumbs.db
+
+# ========== LOGS & TEMP ==========
+*.log
+*.tmp
+*.bak

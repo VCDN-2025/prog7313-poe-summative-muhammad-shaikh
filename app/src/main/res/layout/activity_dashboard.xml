@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DashboardActivity">
+
+    <!-- Welcome Message -->
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/dailyTipText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="💡 Tip of the Day"
+        android:textSize="16sp"
+        android:textColor="#00796B"
+        android:textStyle="italic"
+        android:padding="8dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp" />
+
+
+    <!-- Button: Add Expense -->
+    <Button
+        android:id="@+id/addExpenseButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Add Expense"
+        app:layout_constraintTop_toBottomOf="@id/dailyTipText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Button: View Expenses -->
+    <Button
+        android:id="@+id/viewExpensesButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Expenses"
+        app:layout_constraintTop_toBottomOf="@id/addExpenseButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp" />
+
+    <!-- Button: View Reports -->
+    <Button
+        android:id="@+id/viewReportsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="View Reports"
+        app:layout_constraintTop_toBottomOf="@id/viewExpensesButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp" />
+
+    <!-- Button: Manage Categories -->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Manage Categories"
+        app:layout_constraintTop_toBottomOf="@id/viewReportsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp" />
+
+    <!-- Button: Budget Goals -->
+    <Button
+        android:id="@+id/budgetGoalsButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Budget Goals"
+        app:layout_constraintTop_toBottomOf="@id/settingsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp" />
+
+    <!-- Button: View Category Chart -->
+    <Button
+        android:id="@+id/viewCategoryChartButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Category Chart"
+        app:layout_constraintTop_toBottomOf="@id/budgetGoalsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="6dp" />
+
+    <!-- Section Title: Recent Expenses -->
+    <TextView
+        android:id="@+id/recentTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Recent Expenses"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:paddingTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/viewCategoryChartButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- RecyclerView: Displays Recent Expenses -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentExpensesRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        tools:listitem="@layout/item_expense"
+        android:contentDescription="List of recent expenses"
+        app:layout_constraintTop_toBottomOf="@id/recentTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/toggleThemeButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Toggle Theme"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/viewCategoryChartButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
