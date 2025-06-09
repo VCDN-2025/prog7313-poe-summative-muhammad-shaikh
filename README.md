@@ -5,7 +5,7 @@
 
 
 
-**Youtube Demo Video Link:**
+**Youtube Demo Video Link:** https://youtube.com/shorts/2dtNPk_fuPs?si=rk4fSa61SwsOx7l-
 **Apk Download Link:** https://drive.google.com/file/d/1hSdM_cK8CELIVk4eb0Gdhuy8IG8ATYLp/view?usp=sharing
 **Github Repo: ** https://github.com/VCDN-2025/prog7313-poe-summative-muhammad-shaikh.git
 
