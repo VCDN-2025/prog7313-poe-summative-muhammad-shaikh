@@ -1,9 +1,13 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VgbZgeUK)
+
+
 **BudgetBuddy - Android Expense Tracker App**
 
-Youtube Demo Video Link:
-Apk Download Link:https://drive.google.com/file/d/1hSdM_cK8CELIVk4eb0Gdhuy8IG8ATYLp/view?usp=sharing
-Github Repo: 
+
+
+**Youtube Demo Video Link:**
+**Apk Download Link:** https://drive.google.com/file/d/1hSdM_cK8CELIVk4eb0Gdhuy8IG8ATYLp/view?usp=sharing
+**Github Repo: ** 
 
 **Purpose of the App**
 
