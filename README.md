@@ -7,7 +7,7 @@
 
 **Youtube Demo Video Link:**
 **Apk Download Link:** https://drive.google.com/file/d/1hSdM_cK8CELIVk4eb0Gdhuy8IG8ATYLp/view?usp=sharing
-**Github Repo: ** 
+**Github Repo: ** https://github.com/VCDN-2025/prog7313-poe-summative-muhammad-shaikh.git
 
 **Purpose of the App**
 
@@ -20,8 +20,7 @@ BudgetBuddy is a mobile application developed to assist users in managing their 
 - Upload and store photo receipts
 - Generate category-wise reports
 - View expenses through bar charts showing performance against goals
-- Store all data online using Firebase Realtime Database
-- 
+
 **Custom Features Implemented**
   
 1. **Recent Expenses Summary on Dashboard**
